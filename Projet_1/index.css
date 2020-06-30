@@ -1,0 +1,160 @@
+html {
+	height: 100;
+}
+
+#header
+{	position: absolute;
+	top:0px; right:20px;
+	display: grid;
+	grid-template-columns: 1fr 50px 50px 50px 50px;
+	grid-template-rows:100px;
+	grid-template-areas: 
+	". Gmail Images Menu Signin";	
+
+ } 
+
+ a{
+ 	text-decoration: none;
+ 	color: #25221E;
+ }
+
+ a:hover {
+ 	text-decoration: underline;
+ }
+
+#Gmail {
+	grid-area: Gmail;
+	justify-self: center;
+	align-self: center;
+	font-size: small;
+
+}
+
+#Images {
+	grid-area: Images;
+	justify-self: center;
+	align-self: center;
+	font-size: small;
+}
+
+#Menu {
+	grid-area: Menu;
+	justify-self: center;
+	align-self: center;
+
+}
+
+#Signin {
+	grid-area: Signin;
+	justify-self: center;
+	align-self: center;
+	font-size: small;
+}
+
+
+
+#barre {
+	display: flex;
+	justify-content: center;
+
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 112px;
+  padding-bottom: 20px;
+}
+
+#buttons {
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	margin-bottom: 300px;
+
+}
+
+#Eng
+{
+	color: blue;
+}
+body
+{	 
+	text-align: center;
+	margin: 0; 
+ 	padding: 0;
+	font-family: 'Roboto', sans-serif; 
+	font-size: small;
+
+}
+#lou
+{
+/*ALIGNER LOUPE*/
+}
+
+footer
+{
+position: absolute;
+background: #f2f2f2;
+border-top: solid 2px #e4e4e4;
+/*   position: fixed; */
+bottom: 0;
+padding-bottom: 0;
+width: 100%;
+
+
+ }
+
+ footer a {
+ 	color: #808080	;
+ }
+  
+ footer ul {
+   float: none;
+   padding-bottom: 2px;
+    
+ }
+
+
+footer ul li {
+  display: inline;
+  color: #666666;
+  font-size: 14px;
+  padding: 13px;
+}
+
+footer ul {
+  float: left;
+  padding: 1px;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+
+ 
+ .fgauche {
+   text-align: center;
+   margin: auto; 
+   padding-top: 10px;
+   color: silver;
+    
+ }
+  
+ .fdroite {
+   float: right;
+   text-align: center;
+   color: silver;
+ }
+
+ #fra {
+text-align: left;
+padding-top: 10px;
+padding-left: 13px;
+color: #666666;
+font-size: 14px;
+background: #f2f2f2;
+border-bottom: solid 2px #e4e4e4;
+height: 35px;
+width: 100%;
+color: #666666;
+ }
